@@ -18,6 +18,10 @@ public class Keyword {
         this.count = count;
     }
     
+    public Keyword(String name){
+        this.name = name;
+    }
+    
     //getter-setter
     public String getName() {
         return name;

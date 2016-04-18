@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * @author ercan
  */
 public class Test {
-    public static void main(String[] args) throws IOException {
+    /*public static void main(String[] args) throws IOException {
         ReadInfo readInfo = new ReadInfo();
         readInfo.ReadURLs();
         readInfo.ReadKeywords();
@@ -24,5 +24,5 @@ public class Test {
         if(urlList.get(2) == null)
             System.out.println("123");
         
-    }
+    }*/
 }

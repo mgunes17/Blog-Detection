@@ -22,10 +22,25 @@ import java.util.regex.Pattern;
 public class HttpRequest {
 
     public static void main(String[] args) throws MalformedURLException, IOException {
+        new InfoURL().readKeyword();
+       
+                
         URLPacket up = new URLPacket();
+        up.readUrl();
         
         URLConnection uc = up.getURL(0).openConnection();
       
+        URLConnection uConnection;
+        BufferedReader in;
+        String inputLine;
+        
+        in = new BufferedReader(new InputStreamReader(
+                                        uc.getInputStream()));
+        
+         while ((inputLine = in.readLine()) != null){
+            System.out.println(inputLine);
+         }
+        
         /*ArrayList<URL> urlList = new ArrayList<URL>();
         urlList.add(new URL("https://www.ce.yildiz.edu.tr/"));
         urlList.add(new URL("https://www.mserdark.com/"));

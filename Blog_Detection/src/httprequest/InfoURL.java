@@ -5,6 +5,10 @@
  */
 package httprequest;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -15,20 +19,45 @@ import java.util.ArrayList;
  */
 public class InfoURL {
     public final static String KEYWORD_FILE_NAME = "keyword.txt"; 
-    private static ArrayList<Keyword> KEYWORD_LIST;
+    private static ArrayList<Keyword> KEYWORD_LIST = new ArrayList<Keyword>();
     private String name;
     private ArrayList<Keyword> keywordList;
-    URL url;
+    private URL url;
+    private FileReader inputFile = null;
+    
     
     public InfoURL(String name) throws MalformedURLException{
         keywordList = KEYWORD_LIST;
         url = new URL(name);
+        keywordList = new ArrayList<Keyword>();
+    }
+    
+    public InfoURL(){
+        keywordList = new ArrayList<Keyword>();
     }
     
     public void readKeyword(){
+        String line;
         
-        //KEYWORDLIST OLUSTU !!!
-        //1 kere okuancak singleton?
+        openFile("keywords.txt");
+        BufferedReader bufferedReader = new BufferedReader(inputFile);
+
+        try{
+            while ((line = bufferedReader.readLine()) != null)   {
+                KEYWORD_LIST.add(new Keyword(line));
+              }
+        }catch(IOException e){
+            System.err.println(e);
+        }
+    }
+    
+     public void openFile(String fileName){
+       
+        try{
+            inputFile = new FileReader(fileName);
+        }catch(FileNotFoundException e){
+            System.err.println(e);
+        }
     }
     
     public static ArrayList<Keyword> getKEYWORD_LIST() {
