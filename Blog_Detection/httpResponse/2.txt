@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+<meta charset="UTF-8" />
+<meta content="width=device-width,minimum-scale=1,maximum-scale=1" name="viewport">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<title>
+Bilgisayar Kavramları</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://bilgisayarkavramlari.sadievrenseker.com/xmlrpc.php" />
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="alternate" type="application/rss+xml" title="Bilgisayar Kavramları &raquo; Beslemesi" href="http://bilgisayarkavramlari.sadievrenseker.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bilgisayar Kavramları &raquo; Yorum Beslemesi" href="http://bilgisayarkavramlari.sadievrenseker.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/bilgisayarkavramlari.sadievrenseker.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='jetpack_likes-css'  href='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/jetpack/modules/likes/style.css?ver=2.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_stylesheet-css'  href='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/captcha/css/style.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-css'  href='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/themes/knowhow/style.css?ver=4.5.1' type='text/css' media='all' />
+<style id='theme-style-inline-css' type='text/css'>
+ 
+				/* Links */
+				a, 
+				a:visited { color:#a03717; }
+				a:hover, 
+				.widget a:hover,
+				#primary-nav ul a:hover,
+				#footer-nav a:hover,
+				#breadcrumbs a:hover { color:#a03717 !important; }
+				
+				/* Theme Color */
+				#commentform #submit, 
+				.st_faq h2.active .action, 
+				.widget_categories ul span, 
+				.pagination .current, 
+				.tags a, 
+				.page-links span,
+				#comments .comment-meta .author-badge,
+				input[type="reset"],
+				input[type="submit"],
+				input[type="button"] { background: #a03717; }
+				#live-search #searchsubmit, input[type="submit"] { background-color: #a03717; }
+				.tags a:before { border-color: transparent #a03717 transparent transparent; }
+				#primary-nav { top: 67.5px; }
+
+				
+				
+				
+</style>
+<link rel='stylesheet' id='theme-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/themes/knowhow/css/font-awesome.min.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes-css'  href='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/themes/knowhow/framework/shortcodes/shortcodes.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='youtube-channel-gallery-css'  href='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/youtube-channel-gallery/styles.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.magnific-popup-css'  href='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/youtube-channel-gallery/magnific-popup.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='codebox-css'  href='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/wp-codebox/css/codebox.css?ver=0.1' type='text/css' media='screen' />
+<script type='text/javascript' src='http://bilgisayarkavramlari.sadievrenseker.com/wp-includes/js/jquery/jquery.js?ver=1.12.3'></script>
+<script type='text/javascript' src='http://bilgisayarkavramlari.sadievrenseker.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/jetpack/_inc/postmessage.js?ver=2.5.2'></script>
+<script type='text/javascript' src='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/jetpack/_inc/jquery.inview.js?ver=2.5.2'></script>
+<script type='text/javascript' src='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/jetpack/_inc/jquery.jetpack-resize.js?ver=2.5.2'></script>
+<script type='text/javascript' src='http://bilgisayarkavramlari.sadievrenseker.com/wp-content/plugins/wp-codebox/js/codebox.js?ver=0.1'></script>
+<link rel='https://api.w.org/' href='http://bilgisayarkavramlari.sadievrenseker.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://bilgisayarkavramlari.sadievrenseker.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://bilgisayarkavramlari.sadievrenseker.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.1" />
+<link rel="canonical" href="http://bilgisayarkavramlari.sadievrenseker.com/" />
+<link rel='shortlink' href='http://wp.me/P45dsE-1UL' />
+<link rel="alternate" type="application/json+oembed" href="http://bilgisayarkavramlari.sadievrenseker.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbilgisayarkavramlari.sadievrenseker.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://bilgisayarkavramlari.sadievrenseker.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbilgisayarkavramlari.sadievrenseker.com%2F&#038;format=xml" />
+<!--[if lt IE 9]><script src="http://bilgisayarkavramlari.sadievrenseker.com/wp-content/themes/knowhow/js/html5.js"></script><![endif]--><!--[if (gte IE 6)&(lte IE 8)]><script src="http://bilgisayarkavramlari.sadievrenseker.com/wp-content/themes/knowhow/js/selectivizr-min.js"></script><![endif]--><meta property="og:site_name" content="Bilgisayar Kavramları" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="tr_TR" />
+<meta property="fb:app_id" content="352361371465281" />
+<meta property="og:title" content="Bilgisayar Kavramları" />
+<meta property="og:description" content="www.BilgisayarKavramlari.com" />
+<meta property="og:url" content="http://bilgisayarkavramlari.sadievrenseker.com" />
+</head>
+<body class="home page page-id-7363 page-template-default unknown">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48649613-1', 'sadievrenseker.com');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<!-- #primary-nav-mobile -->
+<nav id="primary-nav-mobile">
+<a class="menu-toggle" href="#"></a>
+<div id="mobile-menu" class="clearfix"><ul><li class="page_item page-item-3560"><a href="http://bilgisayarkavramlari.sadievrenseker.com/divan/">Divan</a></li><li class="page_item page-item-555"><a href="http://bilgisayarkavramlari.sadievrenseker.com/about-12/">Hakkında</a></li><li class="page_item page-item-21"><a href="http://bilgisayarkavramlari.sadievrenseker.com/giris/">Merhaba</a></li><li class="page_item page-item-7363 current_page_item"><a href="http://bilgisayarkavramlari.sadievrenseker.com/">Merhaba</a></li><li class="page_item page-item-2"><a href="http://bilgisayarkavramlari.sadievrenseker.com/sample-page/">Sample Page</a></li></ul></div>
+</nav>
+<!-- /#primary-nav-mobile -->
+
+<!-- #header -->
+<header id="header" class="clearfix" role="banner">
+<div class="container">
+
+<!-- #logo -->
+  <div id="logo">
+    
+  </div>
+<!-- /#logo -->
+<!-- #primary-nav -->
+<nav id="primary-nav" role="navigation" class="clearfix">
+    </nav>
+<!-- #primary-nav -->
+
+</div>
+</header>
+<!-- /#header -->
+
+<!-- #live-search -->
+
+
+<table width=100%><tr><td width="155">
+<h1>      <a title="Bilgisayar Kavramları" href="http://bilgisayarkavramlari.sadievrenseker.com">
+            <img alt="Bilgisayar Kavramları" src="http://www.sadievrenseker.com/logo1_copy.png">
+            </a>
+     </h1></td><td width=*>
+    <div id="live-search">
+    <div class="container">
+    <div id="search-wrap">
+      <form role="search" method="get" id="searchform" class="clearfix" action="http://bilgisayarkavramlari.sadievrenseker.com/">
+        <input type="text" onfocus="if (this.value == 'Aramak istediğinizi buraya yazınız.') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Aramak istediğinizi buraya yazınız.';}" value="Aramak istediğinizi buraya yazınız." name="s" id="s" autocapitalize="off" autocorrect="off" autocomplete="off" />
+        <i class="loading icon-spinner icon-spin"></i>
+        <button type="submit" id="searchsubmit">
+                <i class='icon-search'></i><span>Ara</span>
+            </button>
+      </form>
+      </div>
+    </div>    </div>
+</td></tr></table>
+
+
+<!-- /#live-search -->
+<!-- #primary -->
+<div id="primary" class="container clearfix">
+<!-- #content -->
+  <section id="content" role="main">
+  
+  <!-- #page-header -->
+<header id="page-header" class="clearfix">
+  <h1 class="page-title">Merhaba</h1>
+    
+  </header>
+<!-- /#page-header --> 
+  
+        <article id="post-7363" class="post-7363 page type-page status-publish hentry">
+          
+      <div class="entry-content">
+        <p>Bu sitenin amacı, Türkçe olarak bilgisayar bilimlerinde geçen kavramları açıklamaktır.<br />
+Sitede bilgisayar bilimleri (mühendisliği) konusundaki başta akademik bütün kavramlara yer verilmeye çalışılmaktadır. Dilerseniz yayınlanmasını istediğiniz yazınızı yayin@shedai.net adresine email atabilirsiniz. Uygun görülmesi halinde isminizle yayınlanacaktır.<br />
+Ayrıca her türlü görüş ve tartışma için yeni açılan <a href="http://www.bilgisayarkavramlari.com/divan/">Divan Sayfasını</a> ziyaret edebilirsiniz.<br />
+<a href="http://www.bilgisayarkavramlari.com/about-12/">Ayrıca yasal bilgilendirme ve sitedeki yazılara atıfta bulunulma şartları için bu bağlantıya bakabilirsiniz.</a></p>
+<p>Bilgisayar Kavramlarından Haberler:</p>
+<p>Sitede yeni video kaydı eklenen yazılar aşağıda listelenmiştir. Ne yazık ki video kayıt işlemi tahminimden uzun ve zahmetli olmakta. Dolayısıyla sitedeki bütün yazıların video anlatımına geçilmesi biraz daha sürecek gibi duruyor. Video anlatım ekledikçe aşağıdaki listeyi güncellemeye çalışacağım:</p>
+<ul>
+<li><a href="http://www.bilgisayarkavramlari.com/2010/05/29/cyk-parcalama/">CYK Algoritması</a></li>
+<li><a href="http://www.bilgisayarkavramlari.com/2007/12/24/kruskal-asgari-tarama-agaci-algoritmasi/">Kruskal Asgari Tarama ağacı algoritması</a></li>
+<li><a href="http://www.bilgisayarkavramlari.com/2007/12/24/dijkstra-algoritmasi/">Prims asgari tarama ağacı algoritması</a></li>
+<li><a href="http://www.bilgisayarkavramlari.com/2010/05/13/dijkstra-algoritmasi-2/">Dijkstra en kısa yol algoritması</a></li>
+<li><a href="http://www.bilgisayarkavramlari.com/2007/12/07/karnaugh-haritasi-karnaugh-map/">Karnaugh Haritası (Karnaugh Map)</a></li>
+<li><a href="http://www.bilgisayarkavramlari.com/2008/08/09/kabarcik-siralamasi-baloncuk-siralamasi-bubble-sort/">Bubble Sort (Baloncuk Sıralaması)</a></li>
+<li><a href="http://www.bilgisayarkavramlari.com/2008/08/09/birlestirme-siralamasi-merge-sort/">Merge Sort (Birleştirme Sıralaması)</a></li>
+<li><a href="http://www.bilgisayarkavramlari.com/2008/08/09/hizli-siralama-algoritmasi-quick-sort-algorithm/">Quick Sort (Hızlı Sıralama Algoritması)</a></li>
+<li><a href="http://www.bilgisayarkavramlari.com/2010/05/26/bellman-ford-algoritmasi/">Bellman Ford Algoritması</a></li>
+</ul>
+              </div>
+
+    </article>
+    
+             
+</section>
+<!-- #content -->
+  
+<!-- #sidebar -->
+<aside id="sidebar" role="complementary" itemscope itemtype="http://schema.org/WPSideBar">
+<div id="text-2" class="widget widget_text clearfix"><h4 class="widget-title"><span>Yazarın Yeni Çıkan Kitabı</span></h4>			<div class="textwidget">iTunes:<br><a href="https://itunes.apple.com/us/book/id1072443013"><img src="http://bilgisayarkavramlari.sadievrenseker.com/wp-content/uploads/2016/01/weka_veri_madenciligi.png"></a><br>
+KoboBooks:<br><a href="https://store.kobobooks.com/en-us/ebook/weka-ile-veri-madenciligi"><img src="http://bilgisayarkavramlari.sadievrenseker.com/wp-content/uploads/2016/01/weka_veri_madenciligi.png"></a><br>
+*Kitabı ücretsiz edinmek isteyen öğrenciler lütfen benimle bağlantıya geçsinler. 
+</div>
+		</div><div id="text-3" class="widget widget_text clearfix">			<div class="textwidget"><script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCkkgrhDCJheXQNIFqUVw0_g" data-layout="full" data-count="default"></div></div>
+		</div><div id="youtubechannelgallery_widget-2" class="widget youtubechannelgallery ytccf clearfix"><h4 class="widget-title"><span>Bilgisayar Kavramları Youtube&#8217;da</span></h4><div class="youtubechannelgallery"><div id="ytc-1"><div id="ytc-wrapper"><div class="ytc-pslb ytc-thumbnails container-fluid ytc-thumb16x9 ytc-thumb-align-none">
+
+
+		    	
+    	    				<div class="ytc-row row">
+							
+		<div class="ytc-column col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=pHKZw5EyTi4" data-playerid="ytcplayer1" data-quality="default" title="Veri Tabanı Yönetim Sistemleri - 1 (DBMS Giriş) (DBMS Eğitim Serisi 1)" style="background-image:url(https://i.ytimg.com/vi/pHKZw5EyTi4/default.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  	  <span class="video-time">
+	  		<span>23:09</span>
+	  </span>
+  </div>
+
+<h6 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=pHKZw5EyTi4" data-playerid="ytcplayer1" data-quality="default" alt="Veri Tabanı Yönetim Sistemleri - 1 (DBMS Giriş) (DBMS Eğitim Serisi 1)" title="Veri Tabanı Yönetim Sistemleri - 1 (DBMS Giriş) (DBMS Eğitim Serisi 1)"  target="_blank">
+	  			Veri Tabanı Yönetim Sistemleri - 1 (DBMS Giriş) (DBMS Eğitim Serisi 1)			</a>
+	</h6>		</div>     	
+				
+    	    	
+		<div class="ytc-column col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=5s8IgMfH698" data-playerid="ytcplayer1" data-quality="default" title="WEKA Eğitim Serisi 1 (Giriş ve Ekranları Tanıma)" style="background-image:url(https://i.ytimg.com/vi/5s8IgMfH698/default.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  	  <span class="video-time">
+	  		<span>21:28</span>
+	  </span>
+  </div>
+
+<h6 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=5s8IgMfH698" data-playerid="ytcplayer1" data-quality="default" alt="WEKA Eğitim Serisi 1 (Giriş ve Ekranları Tanıma)" title="WEKA Eğitim Serisi 1 (Giriş ve Ekranları Tanıma)"  target="_blank">
+	  			WEKA Eğitim Serisi 1 (Giriş ve Ekranları Tanıma)			</a>
+	</h6>		</div>     	
+				
+    	    					</div>
+				<div class="ytc-row row">
+							
+		<div class="ytc-column col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=5029aN5bg7w" data-playerid="ytcplayer1" data-quality="default" title="Bilgisayar Kavramları Kanal Tanıtımı" style="background-image:url(https://i.ytimg.com/vi/5029aN5bg7w/default.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  	  <span class="video-time">
+	  		<span>03:12</span>
+	  </span>
+  </div>
+
+<h6 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=5029aN5bg7w" data-playerid="ytcplayer1" data-quality="default" alt="Bilgisayar Kavramları Kanal Tanıtımı" title="Bilgisayar Kavramları Kanal Tanıtımı"  target="_blank">
+	  			Bilgisayar Kavramları Kanal Tanıtımı			</a>
+	</h6>		</div>     	
+				
+    	    	
+		<div class="ytc-column col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=icLN2JaQjv8" data-playerid="ytcplayer1" data-quality="default" title="SQL - 1  (Veri Tabanı Eğitim Serisi 3)" style="background-image:url(https://i.ytimg.com/vi/icLN2JaQjv8/default.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  	  <span class="video-time">
+	  		<span>57:21</span>
+	  </span>
+  </div>
+
+<h6 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=icLN2JaQjv8" data-playerid="ytcplayer1" data-quality="default" alt="SQL - 1  (Veri Tabanı Eğitim Serisi 3)" title="SQL - 1  (Veri Tabanı Eğitim Serisi 3)"  target="_blank">
+	  			SQL - 1  (Veri Tabanı Eğitim Serisi 3)			</a>
+	</h6>		</div>     	
+				
+    	    					</div>
+				<div class="ytc-row row">
+							
+		<div class="ytc-column col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=Bo3i9cyZ5U4" data-playerid="ytcplayer1" data-quality="default" title="Yapay Sinir Ağları (Weka Eğitim Serisi 12)" style="background-image:url(https://i.ytimg.com/vi/Bo3i9cyZ5U4/default.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  	  <span class="video-time">
+	  		<span>15:25</span>
+	  </span>
+  </div>
+
+<h6 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=Bo3i9cyZ5U4" data-playerid="ytcplayer1" data-quality="default" alt="Yapay Sinir Ağları (Weka Eğitim Serisi 12)" title="Yapay Sinir Ağları (Weka Eğitim Serisi 12)"  target="_blank">
+	  			Yapay Sinir Ağları (Weka Eğitim Serisi 12)			</a>
+	</h6>		</div>     	
+				
+    	    	
+		<div class="ytc-column col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=VjOkDO17hso" data-playerid="ytcplayer1" data-quality="default" title="İlişkisel Cebir (Relational Algebra) (Veri Tabanı Eğitim Serisi 2)" style="background-image:url(https://i.ytimg.com/vi/VjOkDO17hso/default.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  	  <span class="video-time">
+	  		<span>31:33</span>
+	  </span>
+  </div>
+
+<h6 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=VjOkDO17hso" data-playerid="ytcplayer1" data-quality="default" alt="İlişkisel Cebir (Relational Algebra) (Veri Tabanı Eğitim Serisi 2)" title="İlişkisel Cebir (Relational Algebra) (Veri Tabanı Eğitim Serisi 2)"  target="_blank">
+	  			İlişkisel Cebir (Relational Algebra) (Veri Tabanı Eğitim Serisi 2)			</a>
+	</h6>		</div>     	
+				
+    	    					</div>
+				<div class="ytc-row row">
+							
+		<div class="ytc-column col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=r3uOBb3BM-0" data-playerid="ytcplayer1" data-quality="default" title="Veri Yapılarına Giriş ve Bağlı Listeler (Linked List) -VY1" style="background-image:url(https://i.ytimg.com/vi/r3uOBb3BM-0/default.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  	  <span class="video-time">
+	  		<span>19:35</span>
+	  </span>
+  </div>
+
+<h6 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=r3uOBb3BM-0" data-playerid="ytcplayer1" data-quality="default" alt="Veri Yapılarına Giriş ve Bağlı Listeler (Linked List) -VY1" title="Veri Yapılarına Giriş ve Bağlı Listeler (Linked List) -VY1"  target="_blank">
+	  			Veri Yapılarına Giriş ve Bağlı Listeler (Linked List) -VY1			</a>
+	</h6>		</div>     	
+				
+    	    	
+		<div class="ytc-column col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="ytcthumb-cont ">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=O6R5TlxaAzY" data-playerid="ytcplayer1" data-quality="default" title="Kötü Üniversitede Bilgisayar Mühendisliği Okumak (Soru Cevap 27 Ocak 2016)" style="background-image:url(https://i.ytimg.com/vi/O6R5TlxaAzY/default.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  	  <span class="video-time">
+	  		<span>08:36</span>
+	  </span>
+  </div>
+
+<h6 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=O6R5TlxaAzY" data-playerid="ytcplayer1" data-quality="default" alt="Kötü Üniversitede Bilgisayar Mühendisliği Okumak (Soru Cevap 27 Ocak 2016)" title="Kötü Üniversitede Bilgisayar Mühendisliği Okumak (Soru Cevap 27 Ocak 2016)"  target="_blank">
+	  			Kötü Üniversitede Bilgisayar Mühendisliği Okumak (Soru Cevap 27 Ocak 2016)			</a>
+	</h6>		</div>     	
+				
+	</div> 
+				<div class="ytc-pagination row">
+			<div class="col-xs-4 ytc-previous">
+							</div>
+			<div class="col-xs-4 ytc-numeration">
+									<span class="ytc-currentpage">1</span><span class="ytc-separator">/</span><span class="ytc-totalpages">45</span>
+			</div>
+			<div class="col-xs-4 ytc-next">
+								<a class="ytc-paginationlink ytc-next" data-cid="UCkkgrhDCJheXQNIFqUVw0_g" data-wid="1" data-playlist="UUkkgrhDCJheXQNIFqUVw0_g" data-token="CAgQAA">Sonraki»</a>
+							</div>
+		</div>
+	
+</div> 
+
+<div class="ytc-pslb ytc-links container-fluid">
+	<div class="ytc-row row">
+		
+					<div class="ytc-youtubelink col-xs-12">
+				<a href="https://www.youtube.com/channel/UCkkgrhDCJheXQNIFqUVw0_g?sub_confirmation=1" class="ytcmore" target="_blank">
+					 YouTube Kanalını ziyaret edin »				</a>
+			</div>
+			</div>
+</div>
+
+</div></div></div></div><div id="facebook-likebox-2" class="widget widget_facebook_likebox clearfix"><iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FBilgisayar-Kavramlari%2F372930586053056&#038;width=200&#038;height=250&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=true&#038;header=false&#038;force_wall=true&#038;locale=tr_TR" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 200px;  height: 250px; background: #fff"></iframe></div><div id="categories-2" class="widget widget_categories clearfix"><h4 class="widget-title"><span>Kategoriler</span></h4>		<ul>
+	<li class="cat-item cat-item-2"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/algoritma-analizi-teory-of-algorithms/" >algoritma analizi (teory of algorithms</span></a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/automata-otomatlar/" title="Özdevinimliler, Özdevinirler veya otomatlar olarak türkçede geçen ve ingilizce literatüründe automata olan konu başlığı için ayrılmış kategöridir.">Automata (otomatlar, özdevinirler</span></a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/bilgisayar-felsefesi/" >bilgisayar felsefesi</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/bilgisayar-grafigi-computer-graphics/" >Bilgisayar Grafiği (Computer Graphics</span></a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/bilgisayar-kavramlari/" >Bilgisayar Kavramları</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/bilgisayar-matematigi/" >Bilgisayar Matematiği</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/bilgisayar-standartlari/" >Bilgisayar Standartları</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/cc/" >C/C++</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/derleyiciler/" >Derleyiciler</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/dogal-dil-isleme-nlp/" >Doğal Dil İşleme (NLP</span></a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/donanim/" >Donanım ( Hardware </span></a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/dosya-organizasyonu-file-organisation/" >Dosya Organizasyonu (File Organisation</span></a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/graf-teorisi/" >graf teorisi (graph theory, çizge kuramı</span></a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/isletim-sistemleri/" >işletim sistemleri</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/java/" >JAVA</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/kodlar/" title="Çeşitli dillerde sorulan kodlama sorularının çözümleri, kod örnekleri ve açıklamaları.">Kod Örnekleri</a>
+<ul class='children'>
+	<li class="cat-item cat-item-27"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/kodlar/scheme/" title="Dr. Scheme PLT Schme MREd ortamında yazılan ve common lisp veya auto lisp dilinden temel alınarak oluşturulan bazı örnek kodlar bu alanda yayınlanacaktır.">Scheme (Lisp</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/kuantum-hesaplama/" >Kuantum Hesaplama</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/mantik-devreleri-logic-circuits/" >Mantık Devreleri (Logic Circuits</span></a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/mis-yonetim-bilisim-sistemleri/" >MIS (Yönetim Bilişim Sistemleri</span></a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/nesne-yonelimli-programlama/" >Nesne Yönelimli Programlama</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/networkag/" >Network(Ağ</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-37"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/networkag/web-teknolojileri/" >Web Teknolojileri</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/programlama-dilleri/" >Programlama Dilleri</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/resim-isleme-image-processing/" >Resim İşleme (Image Processing</span></a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/scheme-lisp/" >Scheme (lisp</span></a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/vizefinalsinavlar/" title="Bilgisayar bilimlerinde çeşitli derslerin vize final ve diğer sınavları ve çözümleri.">Sınavlar</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/sistem-programlama-system-programming/" >Sistem Programlama (System Programming</span></a>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/son-kullanici/" title="Son kullanıcı uygulamaları , işletim sistemleri ve ofis yazılımları gibi son kullanıcıyı ilgilendiren yazılımların bu gözle anlatıldığı bölümdür.">Son Kullanıcı</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/temel-bilimler/" >Temel Bilimler</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/uncategorized/" >Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/veri-guvenligicryptography/" >Veri Güvenliği(Cryptography</span></a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/datamining/" title="Veri madenciliği, istatistik ve veri tabanları gibi bilgisayar bilimleri konularından faydalanırken bioinformatikten sosyal ağlara kadar pek çok alanda kullanılırlar.">Veri Madenciliği (Data Mining</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-40"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/datamining/metin-madenciligi-text-mining/" >Metin Madenciliği (Text Mining</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/verimadenciligidatamining/" >Veri Madenciliği (Data Mining</span></a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/veri-sikistirma-data-compression/" >Veri Sıkıştırma (Data Compression</span></a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/veri-tabani-database/" >Veri Tabanı (Database</span></a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/veri-yapilari/" >veri yapıları</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/yapay-zeka-artificial-intelligence/" >yapay zeka (artificial intelligence</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-41"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/yapay-zeka-artificial-intelligence/yapay-sinir-aglari-artificial-neural-networks/" >Yapay Sinir Ağları (Artificial Neural Networks</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://bilgisayarkavramlari.sadievrenseker.com/category/yazilim-muhendisligi-software-engineering/" >Yazılım Mühendisliği (Software Engineering</span></a>
+</li>
+		</ul>
+</div>		<div id="recent-posts-2" class="widget widget_recent_entries clearfix">		<h4 class="widget-title"><span>Son Eklenenler</span></h4>		<ul>
+					<li>
+				<a href="http://bilgisayarkavramlari.sadievrenseker.com/2015/04/24/kemmi-normallestirme-quantile-normalization/">Kemmi Normalleştirme (Quantile Normalization)</a>
+						</li>
+					<li>
+				<a href="http://bilgisayarkavramlari.sadievrenseker.com/2015/04/01/ters-parca-algoritmasi-reverse-factor-algorithm/">Ters Parça Algoritması (Reverse Factor Algorithm)</a>

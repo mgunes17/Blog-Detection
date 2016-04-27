@@ -1,18 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package httprequest;
+package url_info;
 
-/**
- *
- * @author must
- */
 public class Keyword {
     private String name;
     private int count;
 
+    public Keyword(){
+        //non-args constructor
+    }
+    
     public Keyword(String name, int count){
         this.name = name;
         this.count = count;
@@ -20,6 +15,11 @@ public class Keyword {
     
     public Keyword(String name){
         this.name = name;
+    }
+    
+    //sayma işleminde kullanılır
+    public void upCount(){
+        count++;
     }
     
     //getter-setter
