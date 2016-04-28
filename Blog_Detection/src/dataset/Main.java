@@ -7,12 +7,12 @@ public class Main {
     public static void main(String args[]){
 
         UrlList urls = new UrlList();
-//        urls.createFiles();
+        urls.createFiles();
         urls.readSourceCode();
         urls.countUrlKeyword();
         
         
-        WriteFile wf = new WriteFile();
+        WriteFile wf = new WriteFile("raw_dataset.txt");
         wf.writeKeywords(urls);
     }
 

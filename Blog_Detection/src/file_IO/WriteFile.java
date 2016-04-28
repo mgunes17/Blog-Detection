@@ -17,8 +17,8 @@ public class WriteFile {
     private FileWriter fileWriter;
     private BufferedWriter bufferedWriter;
     
-    public WriteFile(){
-        file = new File("raw_dataset.txt");
+    public WriteFile(String fileName){
+        file = new File(fileName);
     }
     
     public void write(ArrayList<Url> urlList){
@@ -82,7 +82,7 @@ public class WriteFile {
                 for(Keyword k : keywords){
                     writer.print(k.getCount() + " \t");
                 }
-                writer.println("");
+                writer.println();
             }
             
             writer.close();

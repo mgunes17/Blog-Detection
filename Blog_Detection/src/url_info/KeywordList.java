@@ -17,7 +17,7 @@ public class KeywordList {
             ALL_KEYWORDS = readFile.read();
         }
  
-        for(int i=0; i<ALL_KEYWORDS.size(); i++){
+        for(int i=0; i<ALL_KEYWORDS.size()-1; i++){
             keywords.add(new Keyword(ALL_KEYWORDS.get(i)));
         }
         
