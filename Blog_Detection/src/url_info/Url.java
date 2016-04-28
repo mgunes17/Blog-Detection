@@ -1,6 +1,5 @@
 package url_info;
 
-import file_IO.ReadFile;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -13,6 +12,8 @@ public class Url {
     private KeywordList keywordList;
     private int contentLength;
     private int id;
+    private int externalLinkCount = 0; //sayfanın dışarıya veriği link sayısı
+    private int internalLinkCount = 0; //sayfanın aynı domaine verdiği link sayısı
     
     //constructor metotlar
     public Url(String name, int id){
@@ -33,6 +34,24 @@ public class Url {
             for(String word : contentSplitSpace){
                 if(word.contains(keyword.getName()))
                     keyword.upCount();
+            }
+        }
+        
+        countHyperLink();
+                
+    }
+    
+    //içeriye-dışarıya verilen link sayıları
+    public void countHyperLink(){
+        for(int i=0; i<contentSplitSpace.length; i++){
+            if(contentSplitSpace[i].equals("href") && 
+                    contentSplitSpace[i-1].equals("<a") && 
+                    contentSplitSpace[i].contains(urlName)){
+                
+                internalLinkCount++;
+            }
+            else{
+                externalLinkCount++;
             }
         }
     }
