@@ -4,9 +4,13 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.List;
+import url_info.Keyword;
 import url_info.KeywordList;
 import url_info.Url;
+import url_info.UrlList;
 
 public class WriteFile {
     private File file;
@@ -55,5 +59,36 @@ public class WriteFile {
             System.err.println(e);
         }
         
+    }
+    
+    public void writeKeywords(UrlList urlList ){
+        try{
+            if (!file.exists()) {
+                System.out.println("File not found");
+            }
+            
+            PrintWriter writer = new PrintWriter(file);
+            // writing the key names on the 1st row
+            List<Keyword> keyNames = urlList.getUrl(0).getKeywordList().getKeywords();
+            for(Keyword k : keyNames){ 
+                writer.print(k.getName() + " \t");
+            }
+            writer.println("");
+            
+            // writing the count of the keys
+            for(int i=0; i<urlList.getUrlList().size(); i++){
+                List<Keyword> keywords = urlList.getUrl(i).getKeywordList().getKeywords();  
+
+                for(Keyword k : keywords){
+                    writer.print(k.getCount() + " \t");
+                }
+                writer.println("");
+            }
+            
+            writer.close();
+        }
+        catch(IOException e){
+            System.out.println("IO Exception");
+        }
     }
 }
