@@ -69,6 +69,7 @@ public class WriteFile {
             
             PrintWriter writer = new PrintWriter(file);
             // writing the key names on the 1st row
+            writer.print("Content_Size\tInternal_Link\tExternal_Link\t");
             List<Keyword> keyNames = urlList.getUrl(0).getKeywordList().getKeywords();
             for(Keyword k : keyNames){ 
                 writer.print(k.getName() + " \t");
@@ -78,7 +79,10 @@ public class WriteFile {
             // writing the count of the keys
             for(int i=0; i<urlList.getUrlList().size(); i++){
                 List<Keyword> keywords = urlList.getUrl(i).getKeywordList().getKeywords();  
-
+                writer.print(urlList.getUrl(i).getContentLength() + "\t\t" + 
+                             urlList.getUrl(i).getInternalLinkCount() + "\t\t" +
+                             urlList.getUrl(i).getExternalLinkCount()+ "\t\t");
+                
                 for(Keyword k : keywords){
                     writer.print(k.getCount() + " \t");
                 }

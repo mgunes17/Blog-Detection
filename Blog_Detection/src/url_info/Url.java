@@ -14,6 +14,7 @@ public class Url {
     private int id;
     private int externalLinkCount = 0; //sayfanın dışarıya veriği link sayısı
     private int internalLinkCount = 0; //sayfanın aynı domaine verdiği link sayısı
+
     
     //constructor metotlar
     public Url(String name, int id){
@@ -106,5 +107,21 @@ public class Url {
     
     public int getId(){
         return id;
+    }
+    
+    public int getExternalLinkCount() {
+        return externalLinkCount;
+    }
+
+    public void setExternalLinkCount(int externalLinkCount) {
+        this.externalLinkCount = externalLinkCount;
+    }
+
+    public int getInternalLinkCount() {
+        return internalLinkCount;
+    }
+
+    public void setInternalLinkCount(int internalLinkCount) {
+        this.internalLinkCount = internalLinkCount;
     }
 }
