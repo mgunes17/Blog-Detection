@@ -7,7 +7,7 @@ public class Main {
     public static void main(String args[]){
 
         UrlList urls = new UrlList();
-//        urls.createFiles();
+        urls.createFiles();
         urls.readSourceCode();
         urls.countUrlKeyword();
         

@@ -45,14 +45,16 @@ public class Url {
     //içeriye-dışarıya verilen link sayıları
     public void countHyperLink(){
         for(int i=0; i<contentSplitSpace.length; i++){
-            if(contentSplitSpace[i].equals("href") && 
-                    contentSplitSpace[i-1].equals("<a") && 
-                    contentSplitSpace[i].contains(urlName)){
-                
-                internalLinkCount++;
-            }
-            else{
-                externalLinkCount++;
+            if(contentSplitSpace[i].contains("href")){
+                if(
+                        contentSplitSpace[i-1].contains("<a") && 
+                        !contentSplitSpace[i].contains("http")){
+
+                    internalLinkCount++;
+                }
+                else{
+                    externalLinkCount++;
+                }
             }
         }
     }
