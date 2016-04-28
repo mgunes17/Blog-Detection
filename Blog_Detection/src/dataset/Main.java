@@ -1,16 +1,19 @@
 package dataset;
 
+import file_IO.WriteFile;
 import url_info.UrlList;
 
 public class Main {
     public static void main(String args[]){
 
         UrlList urls = new UrlList();
-        urls.createFiles();
+//        urls.createFiles();
         urls.readSourceCode();
         urls.countUrlKeyword();
         
-        //bir metot yaz string ve keywordu alıcak içinde kaç tane olduğunu bulacak
+        
+        WriteFile wf = new WriteFile();
+        wf.writeKeywords(urls);
     }
 
 }
