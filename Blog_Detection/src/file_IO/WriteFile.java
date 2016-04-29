@@ -63,10 +63,6 @@ public class WriteFile {
     
     public void writeKeywords(UrlList urlList ){
         try{
-            if (!file.exists()) {
-                System.out.println("File not found");
-            }
-            
             PrintWriter writer = new PrintWriter(file);
             // writing the key names on the 1st row
             writer.print("Content_Size\tInternal_Link\tExternal_Link\t");
@@ -81,7 +77,7 @@ public class WriteFile {
                 List<Keyword> keywords = urlList.getUrl(i).getKeywordList().getKeywords();  
                 writer.print(urlList.getUrl(i).getContentLength() + "\t\t" + 
                              urlList.getUrl(i).getInternalLinkCount() + "\t\t" +
-                             urlList.getUrl(i).getExternalLinkCount()+ "\t\t");
+                             urlList.getUrl(i).getExternalLinkCount() + "\t\t");
                 
                 for(Keyword k : keywords){
                     writer.print(k.getCount() + " \t");
