@@ -55,16 +55,20 @@ public class UrlList {
         for(int i=0; i<urlList.size(); i++){
             try{
                 in = openConnection(urlList.get(i).getUrlName());
-                //Okunan url için bir dosya oluştur
-                file = new File(String.valueOf(
-                        "httpResponse/"+urlList.get(i).getId())+".txt");
-                file.createNewFile();
-                writer = new PrintWriter(file);
+                if(in != null){
+                    System.out.println(i+" nolu url için bağlantı açıldı...");
+                    //Okunan url için bir dosya oluştur
+                    file = new File(String.valueOf(
+                            "httpResponse/"+urlList.get(i).getId())+".txt");
+                    file.createNewFile();
+                    writer = new PrintWriter(file);
 
-                //url i adına oluşturulan dosyaya yazdır
-                while ((inputLine = in.readLine()) != null){
-                    writer.println(inputLine);         
+                    //url i adına oluşturulan dosyaya yazdır
+                    while ((inputLine = in.readLine()) != null){
+                        writer.println(inputLine);         
+                    }
                 }
+               
             } 
             catch(IOException e){
                 System.err.println(e);
@@ -87,7 +91,9 @@ public class UrlList {
                                           urlConnection.getInputStream()));
         } 
         catch (MalformedURLException ex) {
-            Logger.getLogger(UrlList.class.getName()).log(Level.SEVERE, null, ex);
+            //Logger.getLogger(UrlList.class.getName()).log(Level.SEVERE, null, ex);
+            System.err.println(ex);
+            return null;
         }
         catch(IOException e){
             System.err.println(e);
