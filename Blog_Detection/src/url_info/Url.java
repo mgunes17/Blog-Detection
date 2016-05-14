@@ -67,7 +67,6 @@ public class Url {
             r.read(data);
         
             content = new String(data);
-            System.out.println(content.length());
         }
         catch(FileNotFoundException e){
             System.err.println(e);

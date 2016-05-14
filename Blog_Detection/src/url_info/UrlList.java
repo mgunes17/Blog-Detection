@@ -14,21 +14,34 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class UrlList {
-    private static ArrayList<String> ALL_URLS = new ArrayList<>(); 
+    private static ArrayList<String> ALL_BLOG_URLS = new ArrayList<>(); 
+    private static ArrayList<String> ALL_NOT_BLOG_URLS = new ArrayList<>();
     private final ArrayList<Url> urlList; 
-    private static final String FILE_NAME = "urls.txt";
+    private static final String BLOG_FILE_NAME = "blogs.txt";
+    private static final String NOT_BLOG_FILE_NAME = "notblogs.txt";
     
     
-    public UrlList(){
+    public UrlList(boolean isBlog){
         urlList = new ArrayList<>();
+        ReadFile readFile;
         
-        if(ALL_URLS.isEmpty()){
-            ReadFile readFile = new ReadFile(FILE_NAME);
-            ALL_URLS = readFile.read();
+        if(isBlog == true && ALL_BLOG_URLS.isEmpty()){
+            readFile = new ReadFile(BLOG_FILE_NAME); 
+            ALL_BLOG_URLS = readFile.read();
+        }
+        else if(ALL_NOT_BLOG_URLS.isEmpty()){
+            readFile = new ReadFile(NOT_BLOG_FILE_NAME);
+            ALL_NOT_BLOG_URLS = readFile.read();
         }
         
-        for(int i=0; i<ALL_URLS.size(); i++){
-            urlList.add(new Url(ALL_URLS.get(i),i));
+        if(isBlog)
+            for(int i=0; i<ALL_BLOG_URLS.size(); i++){
+                urlList.add(new Url(ALL_BLOG_URLS.get(i),i));
+            }
+        else{
+            for(int i=0; i<ALL_NOT_BLOG_URLS.size(); i++){
+                urlList.add(new Url(ALL_NOT_BLOG_URLS.get(i),i));
+            }
         }
     }
     
@@ -51,56 +64,14 @@ public class UrlList {
         File file;
         PrintWriter writer;
         BufferedReader in;
-        
-        for(int i=0; i<urlList.size(); i++){
-            try{
-                in = openConnection(urlList.get(i).getUrlName());
-                if(in != null){
-                    System.out.println(i+" nolu url için bağlantı açıldı...");
-                    //Okunan url için bir dosya oluştur
-                    file = new File(String.valueOf(
-                            "httpResponse/"+urlList.get(i).getId())+".txt");
-                    file.createNewFile();
-                    writer = new PrintWriter(file);
+        int count = 0;
 
-                    //url i adına oluşturulan dosyaya yazdır
-                    while ((inputLine = in.readLine()) != null){
-                        writer.println(inputLine);         
-                    }
-                }
-               
-            } 
-            catch(IOException e){
-                System.err.println(e);
-            }
+        for(int i=0; i<urlList.size(); i++){
+            MyThread thread = new MyThread(urlList.get(i));
+            thread.start();
         }
     }
     
-    private BufferedReader openConnection(String urlName){
-        URL url;
-        URLConnection urlConnection;
-        BufferedReader in = null;
-        
-        try {
-            //Bağlantı için URL nesnesi oluştur
-            url = new URL(urlName);
-             //Bağlantıyı aç
-            urlConnection = url.openConnection();
-            //Network üzerinden okuma yapmak için in nesnesini kullan
-            in = new BufferedReader(new InputStreamReader(
-                                          urlConnection.getInputStream()));
-        } 
-        catch (MalformedURLException ex) {
-            //Logger.getLogger(UrlList.class.getName()).log(Level.SEVERE, null, ex);
-            System.err.println(ex);
-            return null;
-        }
-        catch(IOException e){
-            System.err.println(e);
-        }
-        
-        return in;
-    }
     
     public Url getUrl(int index){
         return urlList.get(index);
