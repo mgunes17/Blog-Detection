@@ -23,7 +23,7 @@ public class WriteFile {
     
     public void write(ArrayList<Url> urlList){
         try{
-            fileWriter = new FileWriter(file, false);
+            fileWriter = new FileWriter(file, true);
             bufferedWriter = new BufferedWriter(fileWriter);
             KeywordList keywords;
             
@@ -49,8 +49,6 @@ public class WriteFile {
                 
                 bufferedWriter.write("\n");
             }
-            
-            
             bufferedWriter.flush();
             
             bufferedWriter.close();
@@ -61,28 +59,36 @@ public class WriteFile {
         
     }
     
-    public void writeKeywords(UrlList urlList ){
+    public void writeKeywords(UrlList urlList , boolean isBlog){
         try{
-            PrintWriter writer = new PrintWriter(file);
+            PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(file, true)));
             // writing the key names on the 1st row
             writer.print("Content_Size\tInternal_Link\tExternal_Link\t");
             List<Keyword> keyNames = urlList.getUrl(0).getKeywordList().getKeywords();
             for(Keyword k : keyNames){ 
                 writer.print(k.getName() + " \t");
             }
+            writer.print("Class");
             writer.println("");
             
             // writing the count of the keys
+            
             for(int i=0; i<urlList.getUrlList().size(); i++){
-                List<Keyword> keywords = urlList.getUrl(i).getKeywordList().getKeywords();  
-                writer.print(urlList.getUrl(i).getContentLength() + "\t\t" + 
-                             urlList.getUrl(i).getInternalLinkCount() + "\t\t" +
-                             urlList.getUrl(i).getExternalLinkCount() + "\t\t");
-                
-                for(Keyword k : keywords){
-                    writer.print(k.getCount() + " \t");
+                if(urlList.getUrl(i).getContentLength() != 0){
+                    List<Keyword> keywords = urlList.getUrl(i).getKeywordList().getKeywords();  
+                    writer.print(urlList.getUrl(i).getContentLength() + "\t\t" + 
+                                 urlList.getUrl(i).getInternalLinkCount() + "\t\t" +
+                                 urlList.getUrl(i).getExternalLinkCount() + "\t\t");
+
+                    for(Keyword k : keywords){
+                        writer.print(k.getCount() + " \t");
+                    }
+                    if(isBlog)
+                        writer.print("blog");
+                    else
+                        writer.print("not");
+                    writer.println();
                 }
-                writer.println();
             }
             
             writer.close();
